@@ -46,20 +46,20 @@ namespace MilitaryUnit
             }
 
             Console.WriteLine();
-            DisplayColorComment("Soldier traveling in a vehicle");  // Would work better as a method.
+            DisplayColorComment("Simulating a Soldier traveling in a vehicle");  // Would work better as a method.
             wannabeRanger.PrintCurrentPosition();
             humvee.LoadTroops(wannabeRanger);
             humvee.Move(wannabeRanger, 5, 10);
             wannabeRanger.PrintCurrentPosition();
 
-            DisplayColorComment("Only rangers and paratroopers can do airborne operation.");
-            DisplayColorComment("Paratroopers get bored and lose HP during the preparation.");
+            DisplayColorComment("Only rangers and paratroopers can perform an airborne operation.");
+            DisplayColorComment("Paratroopers get bored and lose HP during the preparation of an airborne operation.");
             foreach (var paraglider in Paragliders)
             {
                 paraglider.AirborneOperation();
             }
 
-            DisplayColorComment("Only rangers and paratroopers can a ride super cool motorcycle.");
+            DisplayColorComment("Only rangers and paratroopers can ride a super cool motorcycle.");
             foreach (var soldier in Soldiers)
             {
                 Console.Write(soldier.name);

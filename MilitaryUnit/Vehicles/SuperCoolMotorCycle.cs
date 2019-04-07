@@ -54,15 +54,15 @@ namespace MilitaryUnit.Vehicles
         {
             if (soldier is Ranger)
             {
-                Console.WriteLine("Simulating a ranger doing a power wheelie");
+                Console.WriteLine(" Simulating a ranger doing a power wheelie");
             }
             else if(soldier is _82ndParatrooper)
             {
-                Console.WriteLine("Simulating a trooper attempting a wheelie");
+                Console.WriteLine(" Simulating a trooper attempting a wheelie");
             }
             else
             {
-                Console.WriteLine("Can't touch this. You are NOT cool enough.");
+                Console.WriteLine(" Can't touch this. You are NOT cool enough.");
             }
         }
     }
