@@ -43,8 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IAirborne.cs" />
+    <Compile Include="Personnel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Soldiers\82ndParatrooper.cs" />
+    <Compile Include="Soldiers\Ranger.cs" />
+    <Compile Include="Vehicle.cs" />
+    <Compile Include="Vehicles\Helicopter.cs" />
+    <Compile Include="Vehicles\SuperCoolMotorCycle.cs" />
+    <Compile Include="Vehicles\WheeledVehicle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
